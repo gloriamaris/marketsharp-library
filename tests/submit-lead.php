@@ -3,7 +3,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/marketsharp-sdk/index.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/marketsharp-library/index.php');
 require_once(MARKETSHARP_DIRECTORY . 'src/MarketSharpApi.class.php');
 
 $marketSharp = new MarketSharpApi(TRUE);    // has credentials in env file
